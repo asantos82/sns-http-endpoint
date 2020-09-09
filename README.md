@@ -10,7 +10,7 @@ $ pip install -r requirements.txt
 
 ## Run Flask Server
 ```shell
-$ export FLASK_APP=
+$ export FLASK_APP=sns-endpoint.py
 $ flask run --host=0.0.0.0
 ```
 
