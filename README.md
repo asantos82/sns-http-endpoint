@@ -21,3 +21,6 @@ $ flask run --host=0.0.0.0
 - Create a target group for the instance you have the Flask Server running, and set port 5000
 - On the R53 Create an A record, ALIAS, and point it to the ALB
 - On the SNS topoic create an https susbcription to the A record you have created
+
+----
+Based on this gist: https://gist.github.com/vvalorous/fb3f8c5b1c5f15f28c14b4b44790d625
